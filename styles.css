@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+header{
+  margin:0 0 15px;
+}
+
+h1, h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    line-height: 100px;
+}
+
+header nav {
+    height: 40px;
+    /*border: solid 1px red;*/
+}
+
+header ul {
+  /*border: solid 1px orange;*/
+  overflow: hidden;
+  width: 247px;
+  margin:0 auto;
+}
+
+header li {
+    float: left;
+    padding: 0 5px;
+    margin:1px 5px 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d3d3d3;
+}
+
+header a {
+  color: white;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+h2 {
+  color: black;
+  background-color:#80ffd0;
+  text-align: left;
+  line-height: 60px;
+  margin:0 0 15px;
+}
+
+span {
+  border-bottom: solid 2px yellow;
+  font-weight: bolder;
+}
