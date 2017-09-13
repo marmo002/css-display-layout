@@ -73,3 +73,39 @@ section {
   margin: 0 1% 10px;
   overflow: hidden;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.sub-box {
+    background-color: yellow;
+}
+
+section ul {
+  overflow: hidden;
+  width: 80px;
+  /* border: solid 1px blue; */
+  margin: 0 auto;
+}
+
+section li {
+  position: relative;
+  /* overflow: hidden; */
+  height: 35px;
+  float: left;
+  line-height: 35px;
+  margin-right: 12px;
+}
+
+  section span {
+    position: absolute;
+    right: -9px;
+    font-size: 12px;
+  }
+
+  a {
+    text-transform: capitalize;
+    font-size: 12px;
+  }
