@@ -53,9 +53,23 @@ h2 {
   text-align: left;
   line-height: 60px;
   margin:0 0 15px;
+  padding-left: 5px;
 }
 
 span {
   border-bottom: solid 2px yellow;
   font-weight: bolder;
+}
+
+main {
+  overflow: hidden;
+  width: 90%;
+  margin:0 auto;
+}
+section {
+  border: solid 1px red;
+  float:left;
+  width: 31%;
+  margin: 0 1% 10px;
+  overflow: hidden;
 }
