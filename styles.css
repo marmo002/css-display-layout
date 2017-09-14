@@ -26,10 +26,9 @@ header nav {
 }
 
 header ul {
-  /*border: solid 1px orange;*/
   overflow: hidden;
-  width: 247px;
-  margin:0 auto;
+  width: 200.66px;
+  margin: 0 auto;
 }
 
 header li {
@@ -86,7 +85,8 @@ img {
 
 section ul {
   overflow: hidden;
-  width: 200.66px;
+  width: 80px;
+  /* border: solid 1px blue; */
   margin: 0 auto;
 }
 
