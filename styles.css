@@ -110,3 +110,11 @@ section li {
     text-transform: capitalize;
     font-size: 12px;
   }
+
+footer {
+  background: black;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
